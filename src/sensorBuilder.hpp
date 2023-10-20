@@ -18,6 +18,7 @@
 #include "sensor/sensorTurbidity.hpp"
 #include "sensor/sensorTDS.hpp"
 #include "sensor/sensorUltrasonic.hpp"
+#include "sensor/sensorLoudness.hpp"
 
 #define SENSOR_BUILDER_DEF_BAUD 9600
 #define SENSOR_BUILDER_DEF_SLAVE 1

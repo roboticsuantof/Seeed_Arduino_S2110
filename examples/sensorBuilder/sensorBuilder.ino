@@ -59,6 +59,10 @@ void setup()
   sensorUltrasonic *ultrasonic = new sensorUltrasonic();
   SensorBuilder.addSensor(ultrasonic);
 
+  Serial.println("SensorBuilder add Loudness");
+  sensorLoudness *loudness = new sensorLoudness();
+  SensorBuilder.addSensor(loudness);
+
   SensorBuilder.begin();
 }
 
